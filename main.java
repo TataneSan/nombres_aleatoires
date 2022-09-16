@@ -1,5 +1,5 @@
 import java.util.concurrent.ThreadLocalRandom;
-class GenerateRandom {
+public class GenerateRandom {
     public static void main( String args[] ) {
       // Génère des random integers  
       int int_random = ThreadLocalRandom.current().nextInt();  
